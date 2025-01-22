@@ -12,7 +12,7 @@ import com.example.myzametki.Models.Zametki;
 public abstract class RoomDB extends RoomDatabase {
 
     private static RoomDB database;
-    private static String DATABASE_NAME = "ZametiApp";
+    private static String DATABASE_NAME = "ZametkiApp";
 
     public synchronized static RoomDB getInstance(Context context){
         if (database == null){
