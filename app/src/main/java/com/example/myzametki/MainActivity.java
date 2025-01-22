@@ -177,29 +177,4 @@ public class MainActivity extends AppCompatActivity implements  PopupMenu.OnMenu
         }
         return false;
     }
-//    public boolean onMenuItemClick(MenuItem item) {
-//        switch (item.getItemId()){
-//            case R.id.pin:
-//                if (selektedZametka.isPinned()) {
-//                    dataBase.mainDAO().pin(selektedZametka.getID(), false);
-//                    Toast.makeText(MainActivity.this, "Открепить", Toast.LENGTH_SHORT).show();
-//                } else {
-//                    dataBase.mainDAO().pin(selektedZametka.getID(), true);
-//                    Toast.makeText(MainActivity.this, "Закрепить", Toast.LENGTH_SHORT).show();
-//                }
-//                zametki.clear();
-//                zametki.addAll(dataBase.mainDAO().getAll());
-//                listAdapter.notifyDataSetChanged();
-//                return true;
-//
-//            case R.id.delete:
-//                dataBase.mainDAO().delete(selektedZametka);
-//                zametki.remove(selektedZametka);
-//                listAdapter.notifyDataSetChanged();
-//                Toast.makeText(MainActivity.this, "Заметка удалена", Toast.LENGTH_SHORT).show();
-//                return true;
-//            default:
-//                return  false;
-//        }
-//    }
 }
